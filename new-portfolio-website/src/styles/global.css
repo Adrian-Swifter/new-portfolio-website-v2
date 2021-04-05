@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #6B5CA5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg-image {
+  position: absolute;
+  width: auto;
+  min-height: 100vh;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+    padding-bottom: 30px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 2rem;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
