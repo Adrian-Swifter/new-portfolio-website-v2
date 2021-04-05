@@ -11,7 +11,7 @@ img {
 
 .bg-image {
   position: absolute;
-  width: auto;
+  width: 100%;
   min-height: 100vh;
   opacity: 0.3;
   top: 0;
