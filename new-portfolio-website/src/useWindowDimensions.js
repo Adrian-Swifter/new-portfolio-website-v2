@@ -3,11 +3,11 @@ import React, { useEffect, useState } from "react"
 function getWindowDimensions() {
   if (typeof window !== "undefined") {
     const { innerWidth: width, innerHeight: height } = window
-  }
 
-  return {
-    width,
-    height,
+    return {
+      width,
+      height,
+    }
   }
 }
 
