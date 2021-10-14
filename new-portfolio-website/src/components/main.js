@@ -17,4 +17,3 @@ import ViewSDKClient from '../components/ViewSDKClient';
   }
   
   export default Main;
-}
