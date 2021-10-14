@@ -46,7 +46,7 @@ class ViewSDKClient {
             content: {
                 /* Location of file where it is hosted */
                 location: {
-                    url: "MilosDraskovicCV.pdf",
+                    url: "https://wrdprssifix.com/wp-content/uploads/2021/10/MilosDraskovicCV.pdf",
                     /*
                     If the file URL requires some additional headers, then it can be passed as follows:-
                     headers: [
