@@ -1,19 +1,9 @@
-import React, { Component } from 'react';
-import ViewSDKClient from '../components/ViewSDKClient';
-  
-  class Main extends Component {
-      componentDidMount() {
-          const viewSDKClient = new ViewSDKClient();
-          viewSDKClient.ready().then(() => {
-              /* Invoke file preview */
-              /* By default the embed mode will be Full Window */
-              viewSDKClient.previewFile("pdf-div", {});
-          });
-      }
-  
-      render() {
-          return <div id="pdf-div" className="full-window-div"/>;
-      }
-  }
-  
-  export default Main;
+import React from "react"
+
+export default function Main() {
+  return (
+    <main className="main">
+      <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://wrdprssifix.com/wp-content/uploads/2021/10/MilosDraskovicCV.pdf" width="100%" height="100%"></embed>
+    </main>
+  )
+}
